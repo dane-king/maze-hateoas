@@ -1,0 +1,17 @@
+{
+    "_id": "five-by-five",
+    "title": "A Beginner's Maze",
+    "cells": {
+        "cell0": { "title": "Entrance Hallway", "doors": ["cell1", "cell2", "cell3", ""] },
+        "cell1": { "title": "Hall of Knives", "doors": ["cell4", "cell5", "cell0", ""] },
+        "cell2": { "title": "Library", "doors": ["cell5", "cell7", "cell6", "cell0"] },
+        "cell3": { "title": "Trophy Room", "doors": ["cell0", "cell6", "", ""] },
+        "cell4": { "title": "Pantry", "doors": ["", "", "cell1", ""] },
+        "cell5": { "title": "Kitchen", "doors": ["", "", "cell2", "cell1"] },
+        "cell6": { "title": "Cloak Room", "doors": ["", "cell10", "", "cell3"] },
+        "cell7": { "title": "Master Bedroom", "doors": ["", "cell8", "", "cell2"] },
+        "cell8": { "title": "Fruit Closet", "doors": ["", "", "cell9", "cell7"] },
+        "cell9": { "title": "Den of Forks", "doors": ["cell8", "", "", "cell10"] },
+        "cell10": { "title": "Nursery", "doors": ["", "cell9", "", "cell6"] }
+    }
+}

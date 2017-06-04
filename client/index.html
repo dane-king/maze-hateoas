@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Node REST</title>
+</head>
+
+<body ng-app="myApp">
+
+    <div ng-controller='MazeController as mc'>
+        <h1>{{mc.title}}</h1>
+        <div>Location:{{mc.location}}</div>
+        <div ng-repeat="door in mc.doors">
+            <maze-button data="door" action="mc.updateMaze({dir})"></maze-button>
+        </div>
+    </div>
+    <script src="./bundle.js"></script>
+</body>
+
+</html>
